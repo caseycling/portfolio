@@ -6,6 +6,7 @@ import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
+
 function App() {
   return (
     <div className="App">
