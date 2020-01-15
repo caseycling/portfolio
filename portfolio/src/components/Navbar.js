@@ -1,21 +1,20 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 import { Link } from 'react-router-dom';
+import Projects from '../pages/Projects'
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
 
 
 const Navbar = () => {
-    render()
-    return(
-        <div className="container">
-            <nav>
-                <div className="navText">
-                    <Link to="/" id="text">Home</Link> | 
-                    <Link to="/contact" id="text">Contact </Link> |
-                    <Link to="/projects"id="text">Projects </Link>
-                </div>
-            </nav>
-        </div>
-    )
+  render()
+  return (
+    <ul>
+      <li><Link to='/'>Home</Link></li>
+      <li><Link to='/projects'>Projects</Link></li>
+      <li><Link to='/contact'>Contact</Link></li>
+    </ul>
+  )
 }
 
 // function navStyle() {
