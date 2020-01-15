@@ -17,8 +17,8 @@ function App() {
           <Home />
           </React.Fragment>
         </Route>
-        <Route path="/Projects" component={Projects}/>
-        <Route path="/Contact" component={Contact}/>
+        <Route exact path="/projects" component={Projects}/>        
+        <Route path="/contact" component={Contact}/>
       </Router>
     </div >
   );
