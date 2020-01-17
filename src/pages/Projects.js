@@ -47,7 +47,7 @@ const Projects = () => {
 
 let pageStyle = {
     marginLeft: "15%",
-    paddingTop: "30px",
+    paddingTop: "50px",
 }
 
 let projectStyle = {

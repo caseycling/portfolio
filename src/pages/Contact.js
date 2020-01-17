@@ -5,7 +5,7 @@ import '../../src/index.css'
 const Contact = () => {
   render()
   return (
-    <div class="contactContainer" style={{ marginLeft: "15%", marginRight: "5%", paddingTop: "30px"}}>
+    <div class="contactContainer" style={{ marginLeft: "15%", marginRight: "5%", paddingTop: "50px"}}>
       <form action="action_page.php">
 
         <label htmlFor="fname">First Name</label>
