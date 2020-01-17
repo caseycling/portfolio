@@ -3,6 +3,7 @@ import { render } from '@testing-library/react';
 import { Link } from 'react-router-dom';
 import Github from '../images/githubLogo.png'
 import Linkedin from '../images/linkeInLogo.png'
+import Profile from '../images/profilePic.jpg';
 
 
 const Navbar = () => {
@@ -10,7 +11,9 @@ const Navbar = () => {
   return (
     <div>
     <ul >
-      <li><Link to='/' className="navLink" style={{marginTop: "35%"}}>Home</Link></li>
+      <li style={{fontSize: "30px", marginTop: "30%", fontWeight: "bold"}}>Casey Clingaman</li>
+    <li><img src={Profile} alt="linkedIn" style={{height: "120px", width: "120px", marginTop: "25px", border: "3px solid black", borderRadius: "20px" }}/></li>
+      <li><Link to='/' className="navLink" style={{marginTop: "205"}}>Home</Link></li>
       <li><Link to='/projects' className="navLink">Projects</Link></li>
       <li><Link to='/contact' className="navLink">Contact</Link></li>
       <li><a href="https://github.com/caseycling" target="_blank"> 
