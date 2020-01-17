@@ -10,9 +10,9 @@ const Navbar = () => {
   render()
   return (
     <div>
-    <ul >
-      <li style={{fontSize: "30px", marginTop: "30%", fontWeight: "bold"}}>Casey Clingaman</li>
-    <li><img src={Profile} alt="linkedIn" style={{height: "120px", width: "120px", marginTop: "25px", border: "3px solid black", borderRadius: "20px" }}/></li>
+    <ul style={{borderRight: "2px groove black"}}>
+      <li style={{fontSize: "24px", marginTop: "30%", fontStyle: "bold",  textShadow: "2px 2px 4px #000000"}}>Casey Clingaman</li>
+    <li><img src={Profile} alt="picture" style={{height: "120px", width: "120px", marginTop: "25px", border: "3px solid black", borderRadius: "20px" }}/></li>
       <li><Link to='/' className="navLink" style={{marginTop: "205"}}>Home</Link></li>
       <li><Link to='/projects' className="navLink">Projects</Link></li>
       <li><Link to='/contact' className="navLink">Contact</Link></li>
