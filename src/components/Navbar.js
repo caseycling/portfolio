@@ -12,14 +12,14 @@ const Navbar = () => {
     <div>
     <ul style={{borderRight: "2px groove black"}}>
       <li style={{fontSize: "24px", marginTop: "30%", fontStyle: "bold",  textShadow: "2px 2px 4px #000000"}}>Casey Clingaman</li>
-    <li><img src={Profile} alt="picture" style={{height: "120px", width: "120px", marginTop: "25px", border: "3px solid black", borderRadius: "20px" }}/></li>
+    <li><img src={Profile} alt="project" style={{height: "120px", width: "120px", marginTop: "25px", border: "3px solid black", borderRadius: "20px" }}/></li>
       <li><Link to='/' className="navLink" style={{marginTop: "205"}}>Home</Link></li>
       <li><Link to='/projects' className="navLink">Projects</Link></li>
       <li><Link to='/contact' className="navLink">Contact</Link></li>
-      <li><a href="https://github.com/caseycling" target="_blank"> 
+      <li><a href="https://github.com/caseycling" target="_blank" rel="noopener noreferrer"> 
         <img src={Github} alt="gitHub" style={{height: "50px", width: "50px", marginTop: "25px"}} /></a>
       </li>
-      <li><a href="https://www.linkedin.com/in/casey-clingaman-b670b5177/" target="_blank">
+      <li><a href="https://www.linkedin.com/in/casey-clingaman-b670b5177/" target="_blank" rel="noopener noreferrer">
         <img src={Linkedin} alt="linkedIn" style={{height: "50px", width: "50px", marginTop: "25px" }}/></a>
       </li>
     </ul>

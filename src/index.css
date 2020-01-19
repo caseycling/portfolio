@@ -12,13 +12,6 @@ code {
     monospace;
 }
 
-/* .container {
-  color: "black";
-  height: 50px;
-  justify-content: center;
-  background-image: url('./background.jpg')
-} */
-
 #text {
   margin: 15px ;
   text-decoration: none;
@@ -49,12 +42,6 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-
-/* .container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-} */
 
 ul {
   list-style-type: none;
