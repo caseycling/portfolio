@@ -1,21 +1,11 @@
-#!/usr/bin/env node
+const express = require('express');
+var app = express();
 
-const http = require("http");
+var PORT = process.env.PORT || 5000;
 
-// Port Environment variable
-const PORT = process.env.PORT || 5000;
 
-// Creating the node server
-const SERVER = http.createServer();
-
-// Firing up the server on selected port
-SERVER.listen(PORT);
-
-SERVER.on("listening", () => {
-    console.log("[Server]::LISTEN:%s", PORT);
+app.get('/', (req, res) => {
+    res.send('Hello Express')
 });
 
-// Callback function for checking connecting or error
-SERVER.on("error", error => {
-    throw new Error(`[Server]::ERROR:${error.message}`);
-});
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`))
