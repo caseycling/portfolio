@@ -12,9 +12,9 @@ app.use(express.json());
 var PORT = process.env.PORT || 5000;
 
 app.post('/contact', (req, res) => {
-    console.log(req.body)
+    console.log(req.body) 
     SgMail.send(req.body)
-    .then(res => console.log(`SERVER.JS RESPONSE: ${res.body}`))
+    .then(res => console.log(`SERVER.JS RESPONSE: ${res}`))
     .catch(err => console.log(`SERVER.JS ERROR: ${err}`));
   });
 
