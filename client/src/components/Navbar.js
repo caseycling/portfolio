@@ -17,10 +17,12 @@ const Navbar = () => {
         <li><Link to='/' className="navLink" style={{ marginTop: "205" }}>Home</Link></li>
         <li><Link to='/projects' className="navLink">Projects</Link></li>
         <li><Link to='/contact' className="navLink">Contact</Link></li>
-        <li><a href="https://github.com/caseycling" target="_blank" rel="noopener noreferrer">
+        <li>
+          <a href="https://github.com/caseycling" target="_blank" rel="noopener noreferrer">
           <img src={Github} alt="gitHub" style={logoStyle} /></a>
         </li>
-        <li><a href="https://www.linkedin.com/in/casey-clingaman-b670b5177/" target="_blank" rel="noopener noreferrer">
+        <li>
+          <a href="https://www.linkedin.com/in/casey-clingaman-b670b5177/" target="_blank" rel="noopener noreferrer">
           <img src={Linkedin} alt="linkedIn" style={logoStyle} /></a>
         </li>
       </ul>
