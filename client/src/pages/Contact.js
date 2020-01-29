@@ -54,26 +54,28 @@ class Contact extends React.Component {
         <h3 style={{ fontSize: "30px" }}>Lets chat</h3>
         <form action="action_page.php">
 
-          <label htmlFor="email">Email</label>
+          <label htmlFor="email" style={{fontWeight: "bold"}}>Email</label>
           <input
             type="text"
             value={this.state.from}
             id="email"
             name="from"
             onChange={this.handleChange}
+            style={inputStyle}
             placeholder="Your email.."
           />
 
-          <label htmlFor="subject">Subject</label>
+          <label htmlFor="subject" style={{fontWeight: "bold"}}>Subject</label>
           <input
             type="text"
             value={this.state.subject}
             id="subject" name="subject"
             onChange={this.handleChange}
+            style={inputStyle}
             placeholder="Subject.."
           />
 
-          <label htmlFor="comment">Comment</label>
+          <label htmlFor="comment" style={{fontWeight: "bold"}}>Comment</label>
           <textarea
             value={this.state.text}
             id="text" name="text"
@@ -94,14 +96,20 @@ let contactStyle = {
   marginLeft: "16%",
   marginRight: "5%",
   padding: "50px",
-  paddingTop: "20px",
+  paddingTop: "0px",
   alignContent: "center",
-  border: "solid 2px black "
+  border: "solid 2px black",
+}
+
+let inputStyle = {
+  border: "solid 2px  gray"
 }
 
 let commentStyle = { 
   height: "200px", 
-  margin: "auto" 
+  margin: "auto", 
+  border: "solid 2px gray"
+
 }
 
 export default Contact;

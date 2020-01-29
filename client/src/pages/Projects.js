@@ -7,7 +7,7 @@ import shopping from '../images/shopping.png';
 import recipe from '../images/recipe.jpg';
 
 const Projects = () => {
-    
+
     render()
     return (
         <div className="projectsContainer" style={pageStyle}>
