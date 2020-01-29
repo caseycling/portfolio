@@ -79,7 +79,7 @@ class Contact extends React.Component {
             id="text" name="text"
             onChange={this.handleChange}
             placeholder="Write something.."
-            style={{ height: "200px", margin: "auto" }}>
+            style={commentStyle}>
           </textarea>
 
           <input type="submit" value="Submit" onClick={this.handleSubmit} />
@@ -89,14 +89,19 @@ class Contact extends React.Component {
   }
 }
 
-  //Styling objects
-  let contactStyle = {
-    marginLeft: "16%",
-    marginRight: "5%", 
-    padding: "50px", 
-    paddingTop: "20px", 
-    alignContent: "center", 
-    border: "solid 2px black "
+//Styling objects
+let contactStyle = {
+  marginLeft: "16%",
+  marginRight: "5%",
+  padding: "50px",
+  paddingTop: "20px",
+  alignContent: "center",
+  border: "solid 2px black "
+}
+
+let commentStyle = { 
+  height: "200px", 
+  margin: "auto" 
 }
 
 export default Contact;
