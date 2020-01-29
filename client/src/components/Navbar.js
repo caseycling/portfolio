@@ -10,9 +10,9 @@ import Background from '../images/navbackground.jpg';
 const Navbar = () => {
   render()
   return (
-    <div >
-      <ul style={{ borderRight: "2px groove black" }}>
-        <li style={{ fontFamily: 'verdana', fontSize: "24px", marginTop: "30%", fontStyle: "bold", textShadow: "1px 3px #000000" }}>Casey Clingaman</li>
+    <div style={{ background: Background }}>
+      <ul style={{ fontFamily: 'Arial Black', borderRight: "2px groove black", boxShadow: "0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)", backgroundImage: Background }}>
+        <li style={{ fontFamily: 'Arial Black', fontSize: "30px", marginTop: "30%", fontStyle: "bolder", textShadow: "1px 1px #000000" }}>Casey Clingaman</li>
         <li><img src={Profile} alt="project" style={{ height: "120px", width: "100px", marginTop: "25px", border: "3px solid black", borderRadius: "20px" }} /></li>
         <li><Link to='/' className="navLink" style={{ marginTop: "205" }}>Home</Link></li>
         <li><Link to='/projects' className="navLink">Projects</Link></li>

@@ -39,7 +39,8 @@ class Contact extends React.Component {
       .catch(err => console.log(`CONTACT.JS ERROR: ${err}`));
   }
 
-  resetState = () => { 
+  //Clear form after submitting
+  resetState = () => {
     this.setState({
       from: '',
       subject: '',
@@ -49,7 +50,8 @@ class Contact extends React.Component {
 
   render() {
     return (
-      <div className="contactContainer" style={{ marginLeft: "16%", marginRight: "5%", paddingTop: "50px" }}>
+      <div className="contactContainer" style={contactStyle}>
+        <h3 style={{ fontSize: "30px" }}>Lets chat</h3>
         <form action="action_page.php">
 
           <label htmlFor="email">Email</label>
@@ -77,7 +79,7 @@ class Contact extends React.Component {
             id="text" name="text"
             onChange={this.handleChange}
             placeholder="Write something.."
-            style={{ height: "200px" }}>
+            style={{ height: "200px", margin: "auto" }}>
           </textarea>
 
           <input type="submit" value="Submit" onClick={this.handleSubmit} />
@@ -86,6 +88,15 @@ class Contact extends React.Component {
       </div>
     )
   }
+}
+  //Styling objects
+  let contactStyle = {
+    marginLeft: "16%",
+    marginRight: "5%", 
+    padding: "50px", 
+    paddingTop: "20px", 
+    alignContent: "center", 
+    border: "solid 2px black "
 }
 
 export default Contact;
