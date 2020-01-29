@@ -83,12 +83,12 @@ class Contact extends React.Component {
           </textarea>
 
           <input type="submit" value="Submit" onClick={this.handleSubmit} />
-
         </form>
       </div>
     )
   }
 }
+
   //Styling objects
   let contactStyle = {
     marginLeft: "16%",

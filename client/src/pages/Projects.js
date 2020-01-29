@@ -7,11 +7,14 @@ import shopping from '../images/shopping.png';
 import recipe from '../images/recipe.jpg';
 
 const Projects = () => {
+    
     render()
     return (
         <div className="projectsContainer" style={pageStyle}>
             <div className="individualContainer" id="weatherApp" style={projectStyle}>
-                <a href={'https://caseycling.github.io/weather-app/'} target={"_blank"}><img src={weather} alt="Project" style={imageStyle} /> </a>
+                <a href={'https://caseycling.github.io/weather-app/'} target={"_blank"}>
+                    <img src={weather} alt="Project" style={imageStyle} />
+                </a>
                 <div >
                     <h3 style={titleStyle}>Weather App</h3>
                 </div>
@@ -20,7 +23,9 @@ const Projects = () => {
                 </div>
             </div>
             <div className="individualContainer" id="barterBud" style={projectStyle}>
-                <a href={"https://secure-headland-57611.herokuapp.com/"} target={"_blank"}><img src={barter} alt="Project" style={imageStyle} /> </a>
+                <a href={"https://secure-headland-57611.herokuapp.com/"} target={"_blank"}>
+                    <img src={barter} alt="Project" style={imageStyle} />
+                </a>
                 <div >
                     <h3 style={titleStyle}>Barter Bud</h3>
                 </div>
@@ -29,7 +34,9 @@ const Projects = () => {
                 </div>
             </div>
             <div className="individualContainer" id="gravel" style={projectStyle}>
-                <a href={"https://gravel-app.herokuapp.com/"} target={"_blank"}><img src={gravel} alt="Project" style={imageStyle} /> </a>
+                <a href={"https://gravel-app.herokuapp.com/"} target={"_blank"}>
+                    <img src={gravel} alt="Project" style={imageStyle} />
+                </a>
                 <div >
                     <h3 style={titleStyle}>Gravel</h3>
                 </div>
@@ -38,7 +45,9 @@ const Projects = () => {
                 </div>
             </div>
             <div className="individualContainer" id="shopping" style={projectStyle}>
-                <a href={"https://aqueous-forest-77948.herokuapp.com/"} target={"_blank"}><img src={shopping} alt="Project" style={imageStyle} /> </a>
+                <a href={"https://aqueous-forest-77948.herokuapp.com/"} target={"_blank"}>
+                    <img src={shopping} alt="Project" style={imageStyle} />
+                </a>
                 <div >
                     <h3 style={titleStyle}>Shopping-list App</h3>
                 </div>
@@ -47,7 +56,9 @@ const Projects = () => {
                 </div>
             </div>
             <div className="individualContainer" id="recipe" style={projectStyle}>
-                <a href={"https://caseycling.github.io/recipeApp/"} target={"_blank"}><img src={recipe} alt="Project" style={imageStyle} /> </a>
+                <a href={"https://caseycling.github.io/recipeApp/"} target={"_blank"}>
+                    <img src={recipe} alt="Project" style={imageStyle} />
+                </a>
                 <div >
                     <h3 style={titleStyle}>Recipe Generator</h3>
                 </div>
@@ -85,8 +96,8 @@ let imageStyle = {
 }
 
 let titleStyle = {
-    textAlign: "center", 
-    margin: 'auto' 
+    textAlign: "center",
+    margin: 'auto'
 }
 
 let linkStyle = {
