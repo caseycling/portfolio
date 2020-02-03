@@ -50,39 +50,43 @@ class Contact extends React.Component {
 
   render() {
     return (
-      <div className="contactContainer" style={contactStyle}>
+      <div className="contactContainer" >
         <h3 style={{ fontSize: "30px" }}>Lets chat</h3>
         <form action="action_page.php">
 
-          <label htmlFor="email" style={{fontWeight: "bold"}}>Email</label>
-          <input
-            type="text"
-            value={this.state.from}
-            id="email"
-            name="from"
-            onChange={this.handleChange}
-            style={inputStyle}
-            placeholder="Your email.."
-          />
+          <div>
+            <label className="contactLabel" htmlFor="email" >Email</label>
+            <input
+              className="contactInput"
+              type="text"
+              value={this.state.from}
+              id="email"
+              name="from"
+              onChange={this.handleChange}
+              placeholder="Your email.."
+            />
 
-          <label htmlFor="subject" style={{fontWeight: "bold"}}>Subject</label>
-          <input
-            type="text"
-            value={this.state.subject}
-            id="subject" name="subject"
-            onChange={this.handleChange}
-            style={inputStyle}
-            placeholder="Subject.."
-          />
+            <label className="contactLabel" htmlFor="subject" >Subject</label>
+            <input
+              className="contactInput"
+              type="text"
+              value={this.state.subject}
+              id="subject" name="subject"
+              onChange={this.handleChange}
+              placeholder="Subject.."
+            />
 
-          <label htmlFor="comment" style={{fontWeight: "bold"}}>Comment</label>
-          <textarea
-            value={this.state.text}
-            id="text" name="text"
-            onChange={this.handleChange}
-            placeholder="Write something.."
-            style={commentStyle}>
-          </textarea>
+            <label className="contactLabel" htmlFor="comment" >Comment</label>
+            <textarea
+              className="contactComment"
+              value={this.state.text}
+              id="text"
+              name="text"
+              onChange={this.handleChange}
+              placeholder="Write something.."
+            >
+            </textarea>
+          </div>
 
           <input type="submit" value="Submit" onClick={this.handleSubmit} />
         </form>
@@ -92,24 +96,22 @@ class Contact extends React.Component {
 }
 
 //Styling objects
-let contactStyle = {
-  marginLeft: "16%",
-  marginRight: "5%",
-  padding: "50px",
-  paddingTop: "0px",
-  alignContent: "center",
-  border: "solid 2px black",
-}
+// let contactStyle = {
+//   marginLeft: "16%",
+//   marginRight: "5%",
+//   padding: "50px",
+//   paddingTop: "0px",
+//   alignContent: "center",
+//   border: "solid 2px black",
+// }
 
-let inputStyle = {
-  border: "solid 2px  gray"
-}
+// let inputStyle = {
+//   border: "solid 2px  gray"
+// }
 
-let commentStyle = { 
-  height: "200px", 
-  margin: "auto", 
-  border: "solid 2px gray"
+// let commentStyle = {
 
-}
+
+// }
 
 export default Contact;

@@ -10,99 +10,62 @@ const Projects = () => {
 
     render()
     return (
-        <div className="projectsContainer" style={pageStyle}>
-            <div className="individualContainer" id="weatherApp" style={projectStyle}>
+        <div className="projectsContainer">
+            <div className="individualContainer" id="weatherApp" >
                 <a href={'https://caseycling.github.io/weather-app/'} target={"_blank"}>
-                    <img src={weather} alt="Project" style={imageStyle} />
+                    <img id="projectImage" src={weather}  alt="Project"  />
                 </a>
                 <div >
-                    <h3 style={titleStyle}>Weather App</h3>
+                    <h3 id="projectTitle">Weather App</h3>
+                    <p>Single-page application built with React for searching the weather. After searching for a city, a request is sent to OpenWeatherMap and the resulting date and weather is displayed with background dynamically changing dependent on the temperature.</p>
                 </div>
                 <div>
-                    <a href={"https://github.com/caseycling/weather-app/"} target={"_blank"} style={linkStyle}>Check out the code</a>
+                    <a id="projectLink" href={"https://github.com/caseycling/weather-app/"} target={"_blank"} >Check out the code</a>
                 </div>
             </div>
-            <div className="individualContainer" id="barterBud" style={projectStyle}>
+            <div className="individualContainer" id="barterBud" >
                 <a href={"https://secure-headland-57611.herokuapp.com/"} target={"_blank"}>
-                    <img src={barter} alt="Project" style={imageStyle} />
+                    <img id="projectImage" src={barter}  alt="Project"  />
                 </a>
                 <div >
-                    <h3 style={titleStyle}>Barter Bud</h3>
+                    <h3 id="projectTitle">Barter Bud</h3>
+                    <p>Barter Bud is a </p>
                 </div>
                 <div>
-                    <a href={"https://github.com/caseycling/Project2"} target={"_blank"} style={linkStyle}>Check out the code</a>
+                    <a id="projectLink" href={"https://github.com/caseycling/Project2"} target={"_blank"} >Check out the code</a>
                 </div>
             </div>
-            <div className="individualContainer" id="gravel" style={projectStyle}>
-                <a href={"https://gravel-app.herokuapp.com/"} target={"_blank"}>
-                    <img src={gravel} alt="Project" style={imageStyle} />
-                </a>
+            <div className="individualContainer" id="gravel" >
+                <a href={"https://gravel-app.herokuapp.com/"} target={"_blank"}><img id="projectImage" src={gravel}  alt="Project"  /></a>
                 <div >
-                    <h3 style={titleStyle}>Gravel</h3>
+                    <h3 id="projectTitle">Gravel</h3>
                 </div>
                 <div>
-                    <a href={"https://github.com/mrgmacandog/gravel"} target={"_blank"} style={linkStyle}>Check out the code</a>
+                    <a id="projectLink" href={"https://github.com/mrgmacandog/gravel"} target={"_blank"} >Check out the code</a>
                 </div>
             </div>
-            <div className="individualContainer" id="shopping" style={projectStyle}>
-                <a href={"https://aqueous-forest-77948.herokuapp.com/"} target={"_blank"}>
-                    <img src={shopping} alt="Project" style={imageStyle} />
-                </a>
+            <div className="individualContainer" id="shopping" >
+                <a href={"https://aqueous-forest-77948.herokuapp.com/"} target={"_blank"}><img id="projectImage" src={shopping}  alt="Project"  /></a>
                 <div >
-                    <h3 style={titleStyle}>Shopping-list App</h3>
+                    <h3 id="projectTitle">Shopping-list App</h3>
                 </div>
                 <div>
-                    <a href={"https://github.com/caseycling/MERN-stack"} target={"_blank"} style={linkStyle}>Check out the code</a>
+                    <a id="projectLink" href={"https://github.com/caseycling/MERN-stack"} target={"_blank"} >Check out the code</a>
                 </div>
             </div>
-            <div className="individualContainer" id="recipe" style={projectStyle}>
+            <div className="individualContainer" id="recipe" >
                 <a href={"https://caseycling.github.io/recipeApp/"} target={"_blank"}>
-                    <img src={recipe} alt="Project" style={imageStyle} />
+                    <img id="projectImage" src={recipe}  alt="Project"  />
                 </a>
                 <div >
-                    <h3 style={titleStyle}>Recipe Generator</h3>
+                    <h3 id="projectTitle">Recipe Generator</h3>
                 </div>
                 <div>
-                    <a href={"https://github.com/caseycling/recipeApp/"} target={"_blank"} style={linkStyle}>Check out the code</a>
+                    <a id="projectLink" href={"https://github.com/caseycling/recipeApp/"} target={"_blank"} > Check out the code</a>
                 </div>
             </div>
         </div>
     )
-}
-
-//Objects for styling
-let pageStyle = {
-    marginLeft: "15%",
-    paddingTop: "50px",
-    overflow: "hidden"
-}
-
-let projectStyle = {
-    justifyContent: "center",
-    float: "left",
-    width: "28%",
-    padding: "15px",
-
-    border: "solid 1px black",
-    backgroundColor: "white",
-    boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
-    margin: "10px",
-}
-
-let imageStyle = {
-    height: "250px",
-    width: "100%",
-    border: "solid 2px black"
-}
-
-let titleStyle = {
-    textAlign: "center",
-    margin: 'auto'
-}
-
-let linkStyle = {
-    textDecoration: "none",
-    justifyContent: "left"
 }
 
 
