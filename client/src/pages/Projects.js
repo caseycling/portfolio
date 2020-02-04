@@ -29,7 +29,7 @@ const Projects = () => {
                 </a>
                 <div >
                     <h3 id="projectTitle">Barter Bud</h3>
-                    <p>Barter Bud is a </p>
+                    <p>Barter Bud is a trading app. After creating and logging into an account using local authentication, users are able to post items they would like to barter with as well as browse items posted for-trade by other users. </p>
                 </div>
                 <div>
                     <a id="projectLink" href={"https://github.com/caseycling/Project2"} target={"_blank"} >Check out the code</a>
@@ -39,6 +39,7 @@ const Projects = () => {
                 <a href={"https://gravel-app.herokuapp.com/"} target={"_blank"}><img id="projectImage" src={gravel}  alt="Project"  /></a>
                 <div >
                     <h3 id="projectTitle">Gravel</h3>
+                    <p>Car-pooling app which connects drivers and passengers. After creating and logging into an account using local authentication, users are able to make posts requesting or offering rides and see posts from other users. Lorem ipsum filler-mc-griller la la lorem fatompoin kroijls </p>
                 </div>
                 <div>
                     <a id="projectLink" href={"https://github.com/mrgmacandog/gravel"} target={"_blank"} >Check out the code</a>

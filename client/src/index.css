@@ -15,7 +15,7 @@ code {
 
 /* Home page section */
 #homeContainer {
-  margin-top: 10px;
+  margin-top: 20px;
 	margin-left: 16%;
 	margin-right: 10%;
   padding: 40px;
@@ -129,7 +129,7 @@ input[type=submit]:hover {
 /* Navbar styling */
 
 .navContainer {
-  margin-top: 0px;
+  margin-top: 0 !important;
 }
 
 .navList {
