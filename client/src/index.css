@@ -6,6 +6,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('./images/mainBackground.jpg');
+
 }
 
 code {
@@ -15,16 +17,19 @@ code {
 
 /* Home page section */
 #homeContainer {
-  margin-top: 20px;
+  margin-top: 50px;
 	margin-left: 16%;
 	margin-right: 10%;
   padding: 40px;
+  height: 100%; 
 
-	border: 3px solid black;
+  color: grey
 }
 
  #homeHeader  {
-	font-family: Lucida Sans Unicode;
+  font-family: Lucida Sans Unicode;
+  font-size: 30px;
+
 	letter-spacing: normal;
 }
 
@@ -35,27 +40,33 @@ code {
 
 /* Projects page section */
 .projectsContainer  {
-    margin-left: 15%;
-    padding-top: 50px;
-    overflow: hidden;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 16%;
+  width: 80%;
+  padding: 20px;
+  border: solid 2px silver;
+  background-image: url('./images/navbackground.jpg');
+
 }
 
-.individualContainer {
-    justify-content: center;
-    float: left;
-    width: 28%;
+.individualContainer {  
+    display: inline-block;
+    margin: 15px;
+    width: 330px;
     padding: 15px;
 
-    border: solid 1px black;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0 0 0 0.2) 0 6px 20px 0 rgba(0 0 0 0.19);
-    margin: 10px;
+    border: solid 2px grey;
+    color: grey;
+    background-image: url('./images/mainBackground.jpg');
+
 }
 
 #projectImage  {
     height: 250px;
     width: 100%;
-    border: solid 2px black;
+    border: solid 2px white;
+    background-color: white;
 }
 
 #projectTitle  {
@@ -64,15 +75,16 @@ code {
 }
 
 #projectLink  {
-    text-decoration: none;
-    justify-content: left;
-}
+  text-decoration: none;
+  text-align: left;
+  }
 
 /* Contact page styling */
 
 .contactContainer {
   width: 70%;
-  margin-top: 10px;
+  
+  margin-top: 50px;
   margin-left: 16%;
   margin-right: 5%;
   padding: 50px;
@@ -80,6 +92,7 @@ code {
   
   align-content: center;
   border: solid 2px black;
+  background-image: url('./images/navbackground.jpg');
 }
 
 .contactInput {
@@ -160,7 +173,7 @@ input[type=submit]:hover {
   height: 155px;
   width: 130px;
   margin-top: 25px;
-  border: 6px solid rgb(200, 200, 200);
+  border: 6px solid black;
   border-radius: 20px;
   box-shadow: 0 10px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }

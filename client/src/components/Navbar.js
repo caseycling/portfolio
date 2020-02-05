@@ -12,7 +12,7 @@ const Navbar = () => {
     <div className="navContainer">
       <div style={{ background: Background }}>
         <ul className="navList">
-          <li className="navName">Casey Cunningh</li>
+          <li className="navName">Casey Clingaman</li>
           <li><img src={Profile} alt="project" className="navImage" /></li>
           <li><Link to='/' className="navLink">Home</Link></li>
           <li><Link to='/projects' className="navLink">Projects</Link></li>
