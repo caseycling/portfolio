@@ -29,7 +29,7 @@ const Projects = () => {
                 </a>
                 <div >
                     <h3 id="projectTitle">Barter Bud</h3>
-                    <p>Barter Bud is a trading app. After creating and logging into an account using local authentication, users are able to post items they would like to barter with as well as browse items posted for-trade by other users. </p>
+                    <p>Barter Bud is a trading app. Users are able to sign up and log in with a unique account where they can upload items for trade and browse other user's items. MongoDB saves pictures and descriptions posted to the site through a RESTfulAPI and the user can post, update or delete them.  </p>
                 </div>
                 <div>
                     <a id="projectLink" href={"https://github.com/caseycling/Project2"} target={"_blank"} >Check out the code</a>
@@ -39,16 +39,17 @@ const Projects = () => {
                 <a href={"https://gravel-app.herokuapp.com/"} target={"_blank"}><img id="projectImage" src={gravel}  alt="Project"  /></a>
                 <div >
                     <h3 id="projectTitle">Gravel</h3>
-                    <p>Car-pooling app which connects drivers and passengers. After creating and logging into an account using local authentication, users are able to make posts requesting or offering rides and see posts from other users. Lorem ipsum filler-mc-griller la la lorem fatompoin kroijls </p>
+                    <p>Car-pooling app which connects drivers and passengers. After creating and logging into an account using local-auth, users are able to make posts requesting or offering rides and see rides from other users. Once a ride is selected, contact information is displayed for communication. </p>
                 </div>
                 <div>
                     <a id="projectLink" href={"https://github.com/mrgmacandog/gravel"} target={"_blank"} >Check out the code</a>
                 </div>
             </div>
             <div className="individualContainer" id="shopping" >
-                <a href={"https://aqueous-forest-77948.herokuapp.com/"} target={"_blank"}><img id="projectImage" src={shopping}  alt="Project"  /></a>
+                <a href={"https://caseyclingaman.herokuapp.com/"} target={"_blank"}><img id="projectImage" src={shopping}  alt="Project"  /></a>
                 <div >
                     <h3 id="projectTitle">Shopping-list App</h3>
+                    <p>This is a simple shopping list application using the MERN stack. I used react-strap for styling the app along with Redux for state managment. Using a RESTful API and MongoDB, list items can be added for display, updated with a line-through or deleted for removal</p>
                 </div>
                 <div>
                     <a id="projectLink" href={"https://github.com/caseycling/MERN-stack"} target={"_blank"} >Check out the code</a>
@@ -60,6 +61,7 @@ const Projects = () => {
                 </a>
                 <div >
                     <h3 id="projectTitle">Recipe Generator</h3>
+                    <p> App for finding recipes. Upon entering an ingredient in the search bar, the Edmam API is queried for recipes relative to the search term. The resulting JSON response object is then passed in as props to the recipe component which then displays  the top ten resulting recipes </p>
                 </div>
                 <div>
                     <a id="projectLink" href={"https://github.com/caseycling/recipeApp/"} target={"_blank"} > Check out the code</a>
