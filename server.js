@@ -1,6 +1,7 @@
 const express = require('express');
 var app = express();
 const SgMail = require('@sendgrid/mail');
+const path = require('path');
 
 SgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
