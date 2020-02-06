@@ -5,7 +5,7 @@ const Home = () => {
 	render()
 	return (
 
-		<div id="homeContainer">
+		<div className="homeContainer" id="home">
 			<h1 id="homeHeader">Hi! Im Casey</h1>
 			<h5 id="homeTitle">FULL-STACK DEVELOPER</h5>
 			<p style={{ marginRight: "10%", fontSize: "20px", fontFamily: "fantasy" }}>Full-stack web developer with complete proficiency in fron-end and backend. Experienced with browser-based technologies as well as databases and server-side development. <br/> <br/>

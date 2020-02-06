@@ -10,7 +10,7 @@ const Projects = () => {
 
     render()
     return (
-        <div className="projectsContainer">
+        <div className="projectsContainer" id="projects">
             <h3 style={{ fontSize: "30px", fontFamily: "fantasy", textAlign: "left", margin: "15px", padding: "15px"}}>Stuff I've Built</h3>
 
             <div className="individualContainer" id="weatherApp" >
