@@ -16,10 +16,11 @@ code {
 }
 
 /* Home page section */
-#homeContainer {
+.homeContainer {
   margin-top: 50px;
 	margin-left: 16%;
-	margin-right: 10%;
+  margin-right: 10%;
+  margin-bottom: 400px;
   padding: 40px;
   height: 100%; 
 
@@ -41,7 +42,6 @@ code {
 /* Projects page section */
 .projectsContainer  {
   text-align: center;
-  margin-top: 50px;
   margin-left: 16%;
   width: 80%;
   padding: 20px;
@@ -87,7 +87,7 @@ code {
 .contactContainer {
   width: 70%;
   
-  margin-top: 50px;
+  margin: 80px;
   margin-left: 16%;
   margin-right: 5%;
   padding: 50px;
