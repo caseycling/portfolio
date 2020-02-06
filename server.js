@@ -9,7 +9,7 @@ SgMail.setApiKey(process.env.SENDGRID_API_KEY);
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-var PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5000;
 
 //Serve static assets if in production
 if(process.env.NODE_ENV === 'production') {
