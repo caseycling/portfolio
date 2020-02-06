@@ -11,9 +11,11 @@ const Projects = () => {
     render()
     return (
         <div className="projectsContainer">
+            <h3 style={{ fontSize: "30px", fontFamily: "fantasy", textAlign: "left", margin: "15px", padding: "15px"}}>Stuff I've Built</h3>
+
             <div className="individualContainer" id="weatherApp" >
                 <a href={'https://caseycling.github.io/weather-app/'} target={"_blank"}>
-                    <img id="projectImage" src={weather}  alt="Project"  />
+                    <img id="projectImage" src={weather} alt="Project" />
                 </a>
                 <div >
                     <h3 id="projectTitle">Weather App</h3>
@@ -25,7 +27,7 @@ const Projects = () => {
             </div>
             <div className="individualContainer" id="barterBud" >
                 <a href={"https://secure-headland-57611.herokuapp.com/"} target={"_blank"}>
-                    <img id="projectImage" src={barter}  alt="Project"  />
+                    <img id="projectImage" src={barter} alt="Project" />
                 </a>
                 <div >
                     <h3 id="projectTitle">Barter Bud</h3>
@@ -36,7 +38,7 @@ const Projects = () => {
                 </div>
             </div>
             <div className="individualContainer" id="gravel" >
-                <a href={"https://gravel-app.herokuapp.com/"} target={"_blank"}><img id="projectImage" src={gravel}  alt="Project"  /></a>
+                <a href={"https://gravel-app.herokuapp.com/"} target={"_blank"}><img id="projectImage" src={gravel} alt="Project" /></a>
                 <div >
                     <h3 id="projectTitle">Gravel</h3>
                     <p>Car-pooling app which connects drivers and passengers. After creating and logging into an account using local-auth, users are able to make posts requesting or offering rides and see rides from other users. Once a ride is selected, contact information is displayed for communication. </p>
@@ -46,7 +48,7 @@ const Projects = () => {
                 </div>
             </div>
             <div className="individualContainer" id="shopping" >
-                <a href={"https://caseyclingaman.herokuapp.com/"} target={"_blank"}><img id="projectImage" src={shopping}  alt="Project"  /></a>
+                <a href={"https://caseyclingaman.herokuapp.com/"} target={"_blank"}><img id="projectImage" src={shopping} alt="Project" /></a>
                 <div >
                     <h3 id="projectTitle">Shopping-list App</h3>
                     <p>This is a simple shopping list application using the MERN stack. I used react-strap for styling the app along with Redux for state managment. Using a RESTful API and MongoDB, list items can be added for display, updated with a line-through or deleted for removal</p>
@@ -57,7 +59,7 @@ const Projects = () => {
             </div>
             <div className="individualContainer" id="recipe" >
                 <a href={"https://caseycling.github.io/recipeApp/"} target={"_blank"}>
-                    <img id="projectImage" src={recipe}  alt="Project"  />
+                    <img id="projectImage" src={recipe} alt="Project" />
                 </a>
                 <div >
                     <h3 id="projectTitle">Recipe Generator</h3>

@@ -46,6 +46,8 @@ code {
   width: 80%;
   padding: 20px;
   border: solid 2px silver;
+  border-radius: 15px 50px;
+
   background-image: url('./images/navbackground.jpg');
 
 }
@@ -57,6 +59,7 @@ code {
     padding: 15px;
 
     border: solid 2px grey;
+    
     color: grey;
     background-image: url('./images/mainBackground.jpg');
 
@@ -91,7 +94,8 @@ code {
   padding-top: 0px;
   
   align-content: center;
-  border: solid 2px black;
+  border: solid 2px silver;
+  border-radius: 15px 50px;
   background-image: url('./images/navbackground.jpg');
 }
 

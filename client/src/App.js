@@ -12,11 +12,7 @@ function App() {
     <div className="App">
       <Router>
         <Navbar />
-        <Route exact path="/">
-          <React.Fragment>
-          <Home />
-          </React.Fragment>
-        </Route>
+        <Route exact path="/" component={Home} />
         <Route exact path="/projects" component={Projects}/>        
         <Route path="/contact" component={Contact}/>
       </Router>
