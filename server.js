@@ -3,7 +3,7 @@ var app = express();
 const SgMail = require('@sendgrid/mail');
 const path = require('path');
 
-SgMail.setApiKey(process.env.REACT_APP_SENDGRID_API_KEY);
+SgMail.setApiKey('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');
 
 //Middleware
 app.use(express.urlencoded({ extended: true }));
