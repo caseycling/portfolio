@@ -2,9 +2,11 @@ const express = require('express');
 var app = express();
 const SgMail = require('@sendgrid/mail');
 const path = require('path');
+require('dotenv').config();
+
 
 SgMail.setApiKey(process.env.REACT_APP_SENDGRID_API_KEY);
-console.log(process.env.REACT_APP_SENDGRID_API_KEY);
+console.log(process.env.REACT_APP_SENDGRID_API_KEY)
 
 //Middleware
 app.use(express.urlencoded({ extended: true }));
