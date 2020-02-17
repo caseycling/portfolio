@@ -49,7 +49,7 @@ code {
 .projectsContainer  {
   text-align: center;
   margin-left: 16%;
-  width: 80%;
+  width: 75%;
   padding: 20px;
   border: solid 2px silver;
   border-radius: 15px 50px;
@@ -60,19 +60,21 @@ code {
 
 .individualContainer {  
     display: inline-block;
-    margin: 15px;
-    width: 330px;
+    margin: 10px;
+    height: 100%;
+    width: 80%;
     padding: 15px;
 
     border: solid 2px grey;
     
     color: grey;
     background-image: url('./images/mainBackground.jpg');
+   
 
 }
 
 #projectImage  {
-    height: 250px;
+    height: 350px;
     width: 100%;
     border: solid 2px white;
     background-color: white;
@@ -151,9 +153,7 @@ input[type=submit]:hover {
 
 /* Navbar styling */
 
-.navContainer {
-  margin-top: 0 !important;
-}
+
 
 .navList {
   list-style-type: none;
@@ -161,13 +161,14 @@ input[type=submit]:hover {
   font-size: 26px;
   margin: 0;
   padding: 0;
+  height: 100%;
   width: 200px;
   background-image: url('./images/navbackground.jpg');
   position: fixed;
-  height: 100%;
-  border-right: 2px groove black;
+  
+  -webkit-text-stroke: .5px silver;
+  border-right: 2px groove silver;
   box-shadow: 0 10px 8px 0 rgba(0 0 0 0.2) 0 6px 20px 0 rgba(0 0 0 0.19);
-  overflow: auto;
 }
 
 .navName {
@@ -175,7 +176,8 @@ input[type=submit]:hover {
   font-size: 36px;
   margin-top: 30%;
   font-weight: bold;
-  text-shadow: 1px 1px #000000;
+  text-shadow: 1px 1px black;
+
 }
 
 .navImage {
