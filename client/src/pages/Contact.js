@@ -27,15 +27,15 @@ class Contact extends React.Component {
   };
 
   emailApi = () => {
-    let sendgridObj = {
+    let mailgunObj = {
       to: 'caseyclinga@gmail.com',
       from: this.state.from,
       subject: this.state.subject,
       text: this.state.text
     }
     this.resetState();
-    axios.post('/contact', sendgridObj)
-      .then(res => console.log(`CONTACT.JS RESPONSE: ${res}`))
+    axios.post('/contact', mailgunObj)
+      .then(res => console.log(`CONTACT.JS RESPONSE: ${res}`)) 
       .catch(err => console.log(`CONTACT.JS ERROR: ${err}`));
   }
 
@@ -45,7 +45,7 @@ class Contact extends React.Component {
       from: '',
       subject: '',
       text: ''
-    })
+    })  
   }
 
   render() {
