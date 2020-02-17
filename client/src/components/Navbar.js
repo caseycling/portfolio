@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react';
 import { render } from '@testing-library/react';
 import { Link } from 'react-scroll';
@@ -9,7 +10,6 @@ import Background from '../images/navbackground.jpg';
 class Navbar extends Component {
   render() {
     return (
-      <div className="navContainer">
         <div style={{ background: Background }}>
           <ul className="navList">
             <li className="navName">Casey Clingaman</li>
@@ -62,7 +62,6 @@ class Navbar extends Component {
             </div>
           </ul>
         </div>
-      </div>
     )
   }
 }
