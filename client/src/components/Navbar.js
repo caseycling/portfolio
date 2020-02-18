@@ -12,9 +12,8 @@ class Navbar extends Component {
     return (
         <div style={{ background: Background }}>
           <ul className="navList">
-            <li className="navName" style={{ marginTop: "10%" }}>Casey </li>
+            <li className="navName" >Casey Clingaman </li>
             <li><img src={Profile} alt="project" className="navImage" /></li>
-            <li className="navName" style={{ marginBottom: "15%" }}>Clingaman</li>
             <li>
               <Link
                 activeClass="active"
@@ -25,6 +24,18 @@ class Navbar extends Component {
                 duration={500}
                 className="navLink">
                 Home
+            </Link>
+            </li>
+            <li>
+              <Link
+                activeClass="active"
+                to="technologies"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className="navLink">
+                Technologies
             </Link>
             </li>
             <li>

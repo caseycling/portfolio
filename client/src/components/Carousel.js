@@ -2,6 +2,7 @@ import React from 'react'
 import AliceCarousel from 'react-alice-carousel'
 import 'react-alice-carousel/lib/alice-carousel.css'
 import background from '../images/navbackground.jpg'
+import darkBackground from '../images/mainBackground.jpg'
 import barter from '../images/barter.png';
 import gravel from '../images/gravel.png';
 import weather from '../images/weather.jpg';
@@ -58,10 +59,12 @@ class Gallery extends React.Component {
         </a>
         <div >
           <h3 id="projectTitle" >{i.title}</h3>
-          <p style={{ fontFamily: "Lato,Helvetica,Arial,sans-serif", margin: "9px", lineHeight: "1.2" }}> {i.description} </p>
+          <p style={{ fontFamily: "Lato,Helvetica,Arial,sans-serif", margin: "9px", lineHeight: "1.2", textAlign: "center" }}> {i.description} </p>
         </div>
         <div>
-          <a id="projectLink" href={i.codeHref} target={"_blank"} >Check out the code</a>
+          <button style={ButtonStyle}>
+            <a id="projectLink" href={i.codeHref} target={"_blank"} style={BtnTextStyle}>Code</a>
+          </button>
         </div>
       </div>
     ),
@@ -74,7 +77,7 @@ class Gallery extends React.Component {
 
   thumbItem = (item, i) => (
     <span key={item} onClick={() => this.Carousel.slideTo(i)}>
-      *{' '}
+      {' '}
     </span>
   )
 
@@ -93,12 +96,29 @@ class Gallery extends React.Component {
 
         <nav>{this.items.map(this.thumbItem)}</nav>
         <div  >
-          <button id="carousel-btn" style={{ float: "left", marginLeft: "12px" }} onClick={() => this.Carousel.slidePrev()}>Prev button</button>
-          <button id="carousel-btn" style={{ float: "right", marginRight: "12px" }} onClick={() => this.Carousel.slideNext()}>Next button</button>
+          <button id="carousel-btn" style={{ float: "left", marginLeft: "12px" }} onClick={() => this.Carousel.slidePrev()}> Back </button>
+          <button id="carousel-btn" style={{ float: "right", marginRight: "12px" }} onClick={() => this.Carousel.slideNext()}> Next </button>
         </div>
       </div>
     )
   }
+}
+
+let ButtonStyle = {
+  marginLeft: "15px", 
+  padding: "5px",
+  border: "none",  
+  borderRadius: "9px",
+  backgroundImage: 'linear-gradient(to top right, silver, black, grey)'
+}
+
+
+let BtnTextStyle = { 
+  float: "left", 
+  fontFamily: "Lato,Helvetica,Arial,sans-serif",
+  fontWeight: "bold",
+  fontSize: "13px", 
+  color: "white" 
 }
 
 
