@@ -12,8 +12,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url('./images/mainBackground.jpg');
-  /* overflow: scroll; */
-  /* overflow-x: hidden; */
+
 }
 
 code {
@@ -36,7 +35,6 @@ code {
  #homeHeader  {
   font-family: Lucida Sans Unicode;
   font-size: 30px;
-
 	letter-spacing: normal;
 }
 
@@ -45,33 +43,35 @@ code {
 	margin-top: 0%;
 }
 
+/* Technologies page section */
+.techContainer {
+  margin-left: 20%;
+  height: 100%;
+  background-color: white;
+}
+
 /* Projects page section */
 .projectsContainer  {
-  text-align: center;
+  /* text-align: center; */
   margin-left: 20%;
   width: 75%;
   padding: 20px;
   border: solid 2px silver;
   border-radius: 15px 50px;
 
-  background-image: url('./images/navbackground.jpg');
-
+  background-image: url('./images/navbackground.jpg')
 }
 
 .individualContainer {  
     display: inline-block;
     margin: 10px;
     height: 100%;
-      width: 90%;
+    width: 90%;
     padding-bottom: 15px;
     
-
     border: solid 2px grey;
-    
     color: grey;
     background-image: url('./images/mainBackground.jpg');
-   
-
 }
 
 #projectImage  {
@@ -97,16 +97,12 @@ code {
   padding: 6px;
   background: black;
   color: white;
-  border: 1px solid silver;
-  
-
-  
+  border: 1px solid silver; 
 }
 /* Contact page styling */
 
 .contactContainer {
   width: 70%;
-  
   margin: 80px;
   margin-left: 20%;
   margin-right: 5%;
@@ -127,7 +123,6 @@ code {
 
   border: solid 2px  gray;
   border-radius: 4px; 
-  
   box-sizing: border-box; 
   resize: vertical 
 }
@@ -145,7 +140,6 @@ code {
 
   border: solid 2px  gray;
   border-radius: 4px; 
-  
   box-sizing: border-box; 
   resize: vertical 
 }
@@ -165,21 +159,18 @@ input[type=submit]:hover {
 
 /* Navbar styling */
 
-
-
 .navList {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 16%;
   list-style-type: none;
   text-align: center;
   font-size: 26px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 18%;
   background-image: url('./images/navbackground.jpg');
   position: fixed;
   
-
   border-right: 4px groove silver;
   box-shadow: 0 10px 8px 0 rgba(0 0 0 0.2) 0 6px 20px 0 rgba(0 0 0 0.19);
 }
@@ -189,13 +180,12 @@ input[type=submit]:hover {
   font-size: 38px;
   font-family: 'Candal', sans-serif;
   letter-spacing: -2px;
-  /* text-shadow: 1px 1px black; */
-
+  margin-top: 10%;
 }
 
 .navImage {
   height: 195px;
-  width: 70%;
+  width: 65%;
   margin-top: 3%;
   border: 6px solid black;
   border-radius: 20px;
