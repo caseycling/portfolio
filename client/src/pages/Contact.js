@@ -51,7 +51,7 @@ class Contact extends React.Component {
   render() {
     return (
       <div className="contactContainer" id="contact">
-        <h3 style={{ fontSize: "30px", fontFamily: "fantasy", paddingTop: "15px" }}>Lets chat</h3>
+        <h3 style={{ fontSize: "30px", fontFamily: "MontSerrat,Tahoma,Arial,sans-serif", paddingTop: "15px"}}>Lets chat</h3>
         <form action="action_page.php">
 
           <div>
