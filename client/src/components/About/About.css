@@ -1,0 +1,22 @@
+/* Home page section */
+.homeContainer {
+    margin-top: 50px;
+      margin-left: 20%;
+    margin-right: 10%;
+    margin-bottom: 400px;
+    padding: 40px;
+    height: 100%; 
+  
+    color: grey
+  }
+  
+   #homeHeader  {
+    font-family: Lucida Sans Unicode;
+    font-size: 30px;
+      letter-spacing: normal;
+  }
+  
+   #homeTitle  {
+      font-size: 15px;
+      margin-top: 0%;
+  }

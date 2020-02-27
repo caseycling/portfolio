@@ -1,0 +1,49 @@
+
+/* Projects page section */
+.projectsContainer  {
+    margin-left: 20%;
+    width: 75%;
+    padding: 20px;
+    border: solid 2px silver;
+    border-radius: 15px 50px;
+  
+    background-image: url('../../images/navbackground.jpg')
+  }
+  
+  .individualContainer {  
+      display: inline-block;
+      margin: 10px;
+      height: 100%;
+      width: 90%;
+      padding-bottom: 15px;
+      
+      border: solid 2px grey;
+      color: grey;
+      background-image: url('../../images/mainBackground.jpg');
+  }
+  
+  #projectImage  {
+      height: 200px;
+      width: 100%;
+      background-color: white;
+  }
+  
+  #projectTitle  {
+      text-align: center;
+      margin-top: 7px;
+      color: white;
+      font-family: 'Candal', sans-serif;
+  }
+  
+  #projectLink  {
+    text-decoration: none;
+    text-align: left;
+    }
+  
+  #carousel-btn {
+    float: right; 
+    padding: 6px;
+    background: black;
+    color: white;
+    border: 1px solid silver; 
+  }
