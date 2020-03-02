@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import CarouselTest from '../../components/Carousel/Carousel';
+import CarouselTest from '../Carousel/Carousel';
 import './Projects.css'
 
 const Projects = () => {

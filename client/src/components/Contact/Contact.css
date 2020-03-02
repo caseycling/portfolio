@@ -10,7 +10,7 @@
     align-content: center;
     border: solid 2px silver;
     border-radius: 15px 50px;
-    background-image: url('../../images/navbackground.jpg');
+    /* background-image: url('../../images/navbackground.jpg'); */
   }
   
   .contactInput {

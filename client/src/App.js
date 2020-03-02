@@ -2,19 +2,12 @@
 
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar'
-import Home from './pages/Home';
-import Contact from './pages/Contact';
-import Projects from './pages/Projects';
+import Home from './pages/Home/Home'
 
 function App() {
   return (
     <div className="App">
-        <Navbar />
         <Home />
-        <Projects />
-        <Contact />
-       
     </div >
   );
 }

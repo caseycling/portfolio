@@ -11,91 +11,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('./images/mainBackground.jpg');
+  /* background-image: url('./images/mainBackground.jpg'); */
 
 }
 
 code {
   font-family: source-code-pro Menlo Monaco Consolas 'Courier New'
     monospace;
-}
-
-
-
-/* Navbar styling */
-
-.navList {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 16%;
-  list-style-type: none;
-  text-align: center;
-  font-size: 26px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-image: url('./images/navbackground.jpg');
-  position: fixed;
-  
-  border-right: 4px groove silver;
-  box-shadow: 0 10px 8px 0 rgba(0 0 0 0.2) 0 6px 20px 0 rgba(0 0 0 0.19);
-}
-
-.navName {
-  color: black;
-  font-size: 38px;
-  font-family: 'Candal', sans-serif;
-  letter-spacing: -2px;
-  margin-top: 10%;
-}
-
-.navImage {
-  height: 195px;
-  width: 65%;
-  margin-top: 3%;
-  border: 6px solid black;
-  border-radius: 20px;
-  box-shadow: 10px 5px 10px black;
-}
-
-.navLink {
-  margin-top: 10px;
-  display: block;
-  color: black;
-  font-weight: bold;
-  font-size: 30px;
-  font-family: 'Raleway', sans-serif;
-  padding: 15px 16px;
-  text-decoration: none;
-  text-shadow: 1px 1px #000000;
-}
-
-.navLink.active {
-    background-color: black;
-    opacity: .5;
-    color: silver;
-}
-
-.navLink:hover:not(.active) {
-  background-color: black;
-  font-weight: bolder;
-  opacity: .5;
-  color: silver;
-}
-
-.navLink:hover {
-  background-color: black;
-  opacity: .5;
-  color: silver;
-}
-
-.logoContainer {
-  display: flex;
-  justify-content: center;
-}
-
-#navLogo {
-  height: 55px;
-  width: 55px;
-  margin: 25px 10px;
-  color: rgb(220, 220, 220);
 }

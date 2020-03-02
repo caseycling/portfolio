@@ -7,7 +7,7 @@
     border: solid 2px silver;
     border-radius: 15px 50px;
   
-    background-image: url('../../images/navbackground.jpg')
+    /* background-image: url('../../images/navbackground.jpg') */
   }
   
   .individualContainer {  
@@ -19,7 +19,7 @@
       
       border: solid 2px grey;
       color: grey;
-      background-image: url('../../images/mainBackground.jpg');
+      /* background-image: url('../../images/mainBackground.jpg'); */
   }
   
   #projectImage  {

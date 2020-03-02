@@ -1,8 +1,6 @@
 import React from 'react'
 import AliceCarousel from 'react-alice-carousel'
 import 'react-alice-carousel/lib/alice-carousel.css'
-// import background from '../images/navbackground.jpg'
-// import darkBackground from '../images/mainBackground.jpg'
 import barter from '../../images/barter.png';
 import gravel from '../../images/gravel.png';
 import weather from '../../images/weather.jpg';

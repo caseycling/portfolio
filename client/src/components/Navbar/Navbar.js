@@ -6,6 +6,7 @@ import Github from '../../images/githubLogo.png'
 import Linkedin from '../../images/linkeInLogo.png'
 import Profile from '../../images/profilePic.jpg';
 import Background from '../../images/navbackground.jpg';
+import './Navbar.css'
 
 class Navbar extends Component {
   render() {
