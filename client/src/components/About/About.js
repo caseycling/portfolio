@@ -5,15 +5,16 @@ import './About.css'
 const Home = () => {
 	render()
 	return (
-
 		<div className="homeContainer" id="home">
-			<h1 id="homeHeader">Hi! Im Casey</h1>
-			<h5 id="homeTitle">FULL-STACK DEVELOPER</h5>
-			<p style={{ marginRight: "10%", fontSize: "20px", fontFamily: "fantasy" }}> Dynamic web developer, proficient with front-end and-backend technologies, database management as well as server-side development. <br/> <br/>
-		
-			I am passionate about thoughtfully designed web-based applications with superior user experience in mind, turning ideas into reality.</p>
+			<div className="contentContainer">
+				<h1 id="homeHeader">CASEY CLINGAMAN</h1>
+				<p style={{ margin: "30px 5%", fontSize: "40px",  fontFamily: '"Maison Neue", Helvetica Neue, Helvetica, Arial, sans-serif', textAlign: "center", lineHeight: "1.30769em" }}> I'm a Seattle based web designer & front-end developer focused on clean, efficient and robust code.</p>
+			</div>
+			<div style={{display: "flex", justifyContent: "center"}}>
+				<button style={{opacity: ".7"}}>Learn more</button>
+			</div>
+			
 		</div>
-
 	)
 }
 
