@@ -11,7 +11,7 @@ const Home = () => {
 				<p style={{ margin: "30px 5%", fontSize: "40px",  fontFamily: '"Maison Neue", Helvetica Neue, Helvetica, Arial, sans-serif', textAlign: "center", lineHeight: "1.30769em" }}> I'm a Seattle based web designer & front-end developer focused on clean, efficient and robust code.</p>
 			</div>
 			<div style={{display: "flex", justifyContent: "center"}}>
-				<button style={{opacity: ".7"}}>Learn more</button>
+				<button style={{}}>Learn more</button>
 			</div>
 			
 		</div>
