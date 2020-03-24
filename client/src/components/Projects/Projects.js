@@ -21,7 +21,7 @@ const Projects = () => {
 //Styling objects
 
 let HeaderStyle = {
-    fontSize: "40px",
+    fontSize: "35px",
     fontFamily: "Roboto, sans-serif",
     paddingTop: "15px",
     marginLeft: "30px",

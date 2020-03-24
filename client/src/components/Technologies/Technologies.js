@@ -15,34 +15,37 @@ class Technologies extends Component {
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
-                <div className="techContainer" id="technologies"style={{backgroundColor: "white"}}>
+                <div className="techContainer" id="technologies" style={{ backgroundColor: "white" }}>
                     <h2 style={HeaderStyle}>Technologies</h2>
                     <div class="content">
-                        <div className="individualContainer" >
-                            <h3>Front-end </h3>
-                            <ul style={{listStyleType: "none", textAlign: "center"}}>
-                                <li>Javascript</li>
-                                <li>CSS</li>
-                                <li>jQuery</li>
+                        <div className="individualContainer" style={{ border: "none" }}>
+                            <h3 style={{color: "black"}}>Languages/Frameworks </h3>
+                            <ul style={{ listStyleType: "none", paddingTop: "5px", display: "inline-block" }}>
+                                <li style={{color: "white", backgroundColor: "silver", width: "300px"}}>Javascript</li>
                                 <li>React.js</li>
+                                <li style={{color: "white", backgroundColor: "silver", width: "300px"}}>jQuery</li>
+                                <li>CSS</li>
+                                <li style={{color: "white", backgroundColor: "silver", width: "300px"}}>HTML</li>
                             </ul>
                         </div>
-                        <div className="individualContainer" style={{border: "none"}}>
-                            <h3>Back-end </h3>
-                            <ul style={{listStyleType: "none", textAlign: "center"}}>
-                                <li>Javascript</li>
-                                <li>CSS</li>
-                                <li>jQuery</li>
-                                <li>React.js</li>
+                        <div className="individualContainer" style={{ border: "none" }}>
+                            <h3 style={{color: "black"}}>Database Management </h3>
+                            <ul style={{ listStyleType: "none", paddingTop: "5px"  }}>
+                                <li style={{color: "white", backgroundColor: "silver", width: "300px"}}>MongoDB</li>
+                                <li>MERN-Stack</li>
+                                <li style={{color: "white", backgroundColor: "silver", width: "300px"}}>MySQL</li>
+                                <li>NoSQL</li>
+                                <li style={{color: "white", backgroundColor: "silver", width: "300px"}}>AWS</li>
                             </ul>
                         </div>
-                        <div className="individualContainer" style={{border: "none"}}>
-                            <h3>Additional</h3>
-                            <ul style={{listStyleType: "none", textAlign: "center"}}>
-                                <li>Javascript</li>
-                                <li>CSS</li>
-                                <li>jQuery</li>
-                                <li>React.js</li>
+                        <div className="individualContainer" style={{ border: "none" }}>
+                            <h3 style={{color: "black"}}>Other Technologies</h3>
+                            <ul style={{ listStyleType: "none", paddingTop: "5px" }}>
+                                <li style={{color: "white", backgroundColor: "silver", width: "300px"}}>Node.js</li>
+                                <li>Passport</li>
+                                <li style={{color: "white", backgroundColor: "silver", width: "300px"}}>NPM</li>
+                                <li>Axios</li>
+                                <li style={{color: "white", backgroundColor: "silver", width: "300px"}}>MVC Structure</li>
                             </ul>
                         </div>
                     </div>
@@ -54,24 +57,24 @@ class Technologies extends Component {
 
 //Styling Objects
 let Container = {
-    backgroundColor: "#e8eaf6", 
-    paddingTop: "5%", 
-    paddingBottom: "3%", 
+    backgroundColor: "#e8eaf6",
+    paddingTop: "5%",
+    paddingBottom: "3%",
     marginBottom: "60px"
 }
 
 let Image = {
-    width: "150px", 
-    height: "200px", 
-    margin: "20px", 
-    marginBottom: "30px", 
+    width: "150px",
+    height: "200px",
+    margin: "20px",
+    marginBottom: "30px",
     float: "left",
     borderRadius: "70px"
 }
 
 let HeaderStyle = {
     fontSize: "35px",
-    fontFamily: "'Roboto', sans-serif",    
+    fontFamily: "'Roboto', sans-serif",
     paddingTop: "20px",
     paddingBottom: "10px",
     marginLeft: "30px",
