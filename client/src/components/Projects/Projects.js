@@ -21,19 +21,20 @@ const Projects = () => {
 //Styling objects
 
 let HeaderStyle = {
-    fontSize: "30px",
-    fontFamily: "MontSerrat,Tahoma,Arial,sans-serif",
-    paddingTop: "0px",
+    fontSize: "40px",
+    fontFamily: "Roboto, sans-serif",
+    paddingTop: "15px",
     marginLeft: "30px",
-    textAlign: "justify"
+    textAlign: "center"
 }
 
 let CarouselStyle = {
     width: "100%",
     marginLeft: "10px",
-    padding: "35px 20px 20px 20px",
+    padding: "20px 20px 20px 20px",
     marginTop: "0px",
-    border: "none"
+    border: "none",
+    boxShadow: "none"
 }
 
 export default Projects;

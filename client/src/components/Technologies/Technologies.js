@@ -18,14 +18,32 @@ class Technologies extends Component {
                 <div className="techContainer" id="technologies"style={{backgroundColor: "white"}}>
                     <h2 style={HeaderStyle}>Technologies</h2>
                     <div class="content">
-                        <div className="individualContainer">
-                            <h3>Front end</h3>
+                        <div className="individualContainer" >
+                            <h3>Front-end </h3>
+                            <ul style={{listStyleType: "none", textAlign: "center"}}>
+                                <li>Javascript</li>
+                                <li>CSS</li>
+                                <li>jQuery</li>
+                                <li>React.js</li>
+                            </ul>
                         </div>
-                        <div className="individualContainer">
-                            <h3>Back end</h3>
+                        <div className="individualContainer" style={{border: "none"}}>
+                            <h3>Back-end </h3>
+                            <ul style={{listStyleType: "none", textAlign: "center"}}>
+                                <li>Javascript</li>
+                                <li>CSS</li>
+                                <li>jQuery</li>
+                                <li>React.js</li>
+                            </ul>
                         </div>
-                        <div className="individualContainer">
+                        <div className="individualContainer" style={{border: "none"}}>
                             <h3>Additional</h3>
+                            <ul style={{listStyleType: "none", textAlign: "center"}}>
+                                <li>Javascript</li>
+                                <li>CSS</li>
+                                <li>jQuery</li>
+                                <li>React.js</li>
+                            </ul>
                         </div>
                     </div>
                 </div>

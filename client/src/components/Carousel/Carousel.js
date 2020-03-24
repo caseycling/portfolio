@@ -51,7 +51,8 @@ class Gallery extends React.Component {
 
   state = {
     galleryItems: this.items.map((i) =>
-      <div className="individualContainer" style={{ background: "black", width: "90%", height: "100%" }} id={i.image}>
+      <div className="individualContainer" style={{ background: "black", width: "90%", height: "100%", border: "none", boxShadow: "0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2)"  
+    }} id={i.image}>
         <a href={i.projectHref} target={"_blank"}>
           <img id="projectImage" src={i.image} alt="Project" />
         </a>
@@ -81,7 +82,7 @@ class Gallery extends React.Component {
 
   render() {
     return (
-      <div>
+      <div >
         <AliceCarousel
           dotsDisabled={true}
           responsive={this.responsive}
