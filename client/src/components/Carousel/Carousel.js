@@ -31,27 +31,27 @@ class Gallery extends React.Component {
       projectHref: 'https://caseyclingaman.herokuapp.com/',
       codeHref: 'https://github.com/caseycling/MERN-stack',
       image: shopping,
-      description: 'A simple shopping list application using the MERN stack. Implemented react-strap for styling the app along with Redux for state managment. Using a RESTful API and MongoDB, list items can be added for display, updated with a line-through or deleted for removal.'
+      description: 'A simple shopping list application using mongoDd, express, react.js and node (MERN stack). Implemented react-strap for styling the app along with Redux for state managment. Using a RESTful API and MongoDB, list items can be added for display, updated with a line-through or deleted for removal.'
     },
     {
       title: 'Recipe Generator',
       projectHref: 'https://caseycling.github.io/recipeApp/',
       codeHref: 'https://github.com/caseycling/recipeApp/',
       image: recipe,
-      description: 'App for finding recipes. Upon entering an ingredient in the search bar, the Edmam API is queried for recipes relative to the search term. The resulting JSON response object is then passed in as props to the recipe component which then displays  the top ten resulting recipes.',
+      description: 'App for finding recipes using a RESTful API. Upon entering an ingredient in the search bar, the Edmam API is queried for recipes relative to the search term. The resulting JSON response object is then passed in as props to the recipe component which then displays  the top ten resulting recipes.',
     },
     {
       title: 'Weather App',
       projectHref: 'https://caseycling.github.io/weather-app/',
       codeHref: 'https://github.com/caseycling/weather-app/',
       image: weather,
-      description: 'Single-page application built with React for searching the weather using RESTful API. After searching for a city, a request is sent to OpenWeatherMap and the resulting date and weather is displayed with background dynamically changing dependent on the weather.',
+      description: 'Single-page application built with a React.js frontend for searching the weather. After entering in a city, a request is sent to OpenWeatherMap using HTTP protocol and the resulting date and weather is displayed with background dynamically changing dependent on the weather.',
     },
   ]
 
   state = {
     galleryItems: this.items.map((i) =>
-      <div className="individualContainer" style={{ background: "black", width: "90%" }} id={i.image}>
+      <div className="individualContainer" style={{ background: "black", width: "90%", height: "100%" }} id={i.image}>
         <a href={i.projectHref} target={"_blank"}>
           <img id="projectImage" src={i.image} alt="Project" />
         </a>
@@ -95,7 +95,7 @@ class Gallery extends React.Component {
         <nav>{this.items.map(this.thumbItem)}</nav>
         <div  >
           <button id="carousel-btn" style={{ float: "left", marginLeft: "12px" }} onClick={() => this.Carousel.slidePrev()}> Back </button>
-          <button id="carousel-btn" style={{ float: "right", marginRight: "12px" }} onClick={() => this.Carousel.slideNext()}> Next </button>
+          <button id="carousel-btn" style={{ float: "right", marginRight: "22px" }} onClick={() => this.Carousel.slideNext()}> Next </button>
         </div>
       </div>
     )

@@ -2,26 +2,24 @@
 .techContainer {
     margin-left: 10%;
     margin-bottom: 50px;
-    width: 75%;
+    margin-bottom: 50px;
+    width: 80%;
     padding: 20px;
     border: solid 2px silver;
     border-radius: 15px 50px;
   
     /* background-image: url('../../images/navbackground.jpg') */
   }
-  
-  table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #dddddd;
+
+  .individualContainer {  
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    height: 100%;
+    width: 31%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+    border: solid 2px grey;
+    color: grey;
   }
