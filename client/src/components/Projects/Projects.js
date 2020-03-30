@@ -7,12 +7,10 @@ const Projects = () => {
 
     render()
     return (
-            <div className="projectsContainer" id="projects" style={{ paddingBottom: "20px" }}>
+            <div className="projectsContainer" id="projects" style={{ paddingBottom: "5%", border: 'none' }}>
                 <h3 style={HeaderStyle}>Stuff I've Built</h3>
                 <div className="individualContainer" style={CarouselStyle}>
-                    <CarouselTest
-                        autoplay={true}
-                    />
+                    <CarouselTest/>
                 </div>
             </div>
     )
