@@ -1,6 +1,7 @@
 import React from 'react'
 import AliceCarousel from 'react-alice-carousel'
 import 'react-alice-carousel/lib/alice-carousel.css'
+import './Carousel.css'
 import barter from '../../images/barter.png';
 import gravel from '../../images/gravel.png';
 import weather from '../../images/weather.jpg';
@@ -51,8 +52,9 @@ class Gallery extends React.Component {
 
   state = {
     galleryItems: this.items.map((i) =>
-      <div className="individualContainer" style={{ background: "black", width: "90%", height: "100%", border: "none", boxShadow: "0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2)"  
-    }} id={i.image}>
+      <div className="individualContainer" style={{
+        background: "black", width: "90%", height: "100%", border: "none", boxShadow: "0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2)"
+      }} id={i.image}>
         <a href={i.projectHref} target={"_blank"}>
           <img id="projectImage" src={i.image} alt="Project" />
         </a>
@@ -70,7 +72,7 @@ class Gallery extends React.Component {
   }
 
   responsive = {
-    0: { items: 3 },
+    0: { items: 1 },
     1024: { items: 3 }
   }
 
@@ -82,7 +84,7 @@ class Gallery extends React.Component {
 
   render() {
     return (
-      <div >
+      <div style={{position: 'relative'}}>
         <AliceCarousel
           dotsDisabled={true}
           responsive={this.responsive}
@@ -94,30 +96,32 @@ class Gallery extends React.Component {
         />
 
         <nav>{this.items.map(this.thumbItem)}</nav>
-        <div  >
-          <button id="carousel-btn" style={{ float: "left", marginLeft: "12px" }} onClick={() => this.Carousel.slidePrev()}> Back </button>
-          <button id="carousel-btn" style={{ float: "right", marginRight: "22px" }} onClick={() => this.Carousel.slideNext()}> Next </button>
-        </div>
+        {/* <div  > */}
+          <button id="carousel-btn" style={{ borderRadius: '8px', position: 'absolute',  top: '0', bottom: '0', right: '99%', margin: 'auto', height: '10%'}} 
+          onClick={() => this.Carousel.slidePrev()}> Prev </button>
+          <button id="carousel-btn" style={{ borderRadius: '8px', opacity: '.9', position: 'absolute', top: '0', bottom: '0', right: '0', left: '99%', margin: 'auto', height: '10%'}}
+          onClick={() => this.Carousel.slideNext()}> Next </button>
+        {/* </div> */}
       </div>
     )
   }
 }
 
 let ButtonStyle = {
-  marginLeft: "15px", 
+  marginLeft: "15px",
   padding: "5px",
-  border: "none",  
-  borderRadius: "9px",
+  border: "none",
+  borderRadius: "90px",
   backgroundImage: 'linear-gradient(to top right, silver, black, grey)'
 }
 
 
-let BtnTextStyle = { 
-  float: "left", 
+let BtnTextStyle = {
+  float: "left",
   fontFamily: "Lato,Helvetica,Arial,sans-serif",
   fontWeight: "bold",
-  fontSize: "13px", 
-  color: "white" 
+  fontSize: "13px",
+  color: "white"
 }
 
 
