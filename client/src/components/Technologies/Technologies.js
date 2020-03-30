@@ -20,32 +20,32 @@ class Technologies extends Component {
                     <div class="content">
                         <div className="individualContainer" style={{ border: "none" }}>
                             <h3 style={{color: "black"}}>Languages/Frameworks </h3>
-                            <ul style={{ listStyleType: "none", paddingTop: "5px", display: "inline-block" }}>
-                                <li style={{color: "white", backgroundColor: "silver", width: "300px"}}>Javascript</li>
-                                <li>React.js</li>
-                                <li style={{color: "white", backgroundColor: "silver", width: "300px"}}>jQuery</li>
-                                <li>CSS</li>
-                                <li style={{color: "white", backgroundColor: "silver", width: "300px"}}>HTML</li>
+                            <ul>
+                                <li className="tech-list">Javascript</li>
+                                <li className="tech-list">React.js</li>
+                                <li className="tech-list">jQuery</li>
+                                <li className="tech-list">CSS</li>
+                                <li className="tech-list">HTML</li>
                             </ul>
                         </div>
                         <div className="individualContainer" style={{ border: "none" }}>
                             <h3 style={{color: "black"}}>Database Management </h3>
-                            <ul style={{ listStyleType: "none", paddingTop: "5px"  }}>
-                                <li style={{color: "white", backgroundColor: "silver", width: "300px"}}>MongoDB</li>
-                                <li>MERN-Stack</li>
-                                <li style={{color: "white", backgroundColor: "silver", width: "300px"}}>MySQL</li>
-                                <li>NoSQL</li>
-                                <li style={{color: "white", backgroundColor: "silver", width: "300px"}}>AWS</li>
+                            <ul>
+                                <li className="tech-list">MongoDB</li>
+                                <li className="tech-list">MERN-Stack</li>
+                                <li className="tech-list">MySQL</li>
+                                <li className="tech-list">NoSQL</li>
+                                <li className="tech-list">AWS</li>
                             </ul>
                         </div>
                         <div className="individualContainer" style={{ border: "none" }}>
                             <h3 style={{color: "black"}}>Other Technologies</h3>
-                            <ul style={{ listStyleType: "none", paddingTop: "5px" }}>
-                                <li style={{color: "white", backgroundColor: "silver", width: "300px"}}>Node.js</li>
-                                <li>Passport</li>
-                                <li style={{color: "white", backgroundColor: "silver", width: "300px"}}>NPM</li>
-                                <li>Axios</li>
-                                <li style={{color: "white", backgroundColor: "silver", width: "300px"}}>MVC Structure</li>
+                            <ul>
+                                <li className="tech-list">Node.js</li>
+                                <li className="tech-list">Passport</li>
+                                <li className="tech-list">NPM</li>
+                                <li className="tech-list">Axios</li>
+                                <li className="tech-list">MVC Structure</li>
                             </ul>
                         </div>
                     </div>
