@@ -35,7 +35,7 @@ class Contact extends React.Component {
     }
     this.resetState();
     axios.post('/contact', mailgunObj)
-      .then(res => console.log(`CONTACT.JS RESPONSE: ${res}`)) 
+      .then(res => console.log(`CONTACT.JS RESPONSE: ${res}`))
       .catch(err => console.log(`CONTACT.JS ERROR: ${err}`));
   }
 
@@ -45,51 +45,53 @@ class Contact extends React.Component {
       from: '',
       subject: '',
       text: ''
-    })  
+    })
   }
 
   render() {
     return (
-      <div className="contactContainer" id="contact">
-        <h3 style={{ fontSize: "30px", fontFamily: "MontSerrat,Tahoma,Arial,sans-serif", paddingTop: "15px"}}>Lets chat</h3>
-        <form action="action_page.php">
+      <div style={{backgroundColor: 'rgb(232, 234, 246)', paddingTop: '.5%', paddingBottom: '3%'}}>
+        <div className="contactContainer" id="contact">
+          <h3 style={{ fontSize: "35px", fontFamily: "Roboto, sans-serif", paddingTop: "3%" }}>Lets chat</h3>
+          <form action="action_page.php">
 
-          <div>
-            <label className="contactLabel" htmlFor="email" >Email</label>
-            <input
-              className="contactInput"
-              type="text"
-              value={this.state.from}
-              id="email"
-              name="from"
-              onChange={this.handleChange}
-              placeholder="Your email.."
-            />
+            <div>
+              <label className="contactLabel" htmlFor="email" >Email</label>
+              <input
+                className="contactInput"
+                type="text"
+                value={this.state.from}
+                id="email"
+                name="from"
+                onChange={this.handleChange}
+                placeholder="Your email.."
+              />
 
-            <label className="contactLabel" htmlFor="subject" >Subject</label>
-            <input
-              className="contactInput"
-              type="text"
-              value={this.state.subject}
-              id="subject" name="subject"
-              onChange={this.handleChange}
-              placeholder="Subject.."
-            />
+              <label className="contactLabel" htmlFor="subject" >Subject</label>
+              <input
+                className="contactInput"
+                type="text"
+                value={this.state.subject}
+                id="subject" name="subject"
+                onChange={this.handleChange}
+                placeholder="Subject.."
+              />
 
-            <label className="contactLabel" htmlFor="comment" >Comment</label>
-            <textarea
-              className="contactComment"
-              value={this.state.text}
-              id="text"
-              name="text"
-              onChange={this.handleChange}
-              placeholder="Write something.."
-            >
-            </textarea>
-          </div>
+              <label className="contactLabel" htmlFor="comment" >Comment</label>
+              <textarea
+                className="contactComment"
+                value={this.state.text}
+                id="text"
+                name="text"
+                onChange={this.handleChange}
+                placeholder="Write something.."
+              >
+              </textarea>
+            </div>
 
-          <input type="submit" value="Submit" onClick={this.handleSubmit} />
-        </form>
+            <input type="submit" value="Submit" onClick={this.handleSubmit} />
+          </form>
+        </div>
       </div>
     )
   }
