@@ -11,9 +11,12 @@ class Technologies extends Component {
                 }} id="technologies">
                     <img src={Headshot} style={Image}></img>
                     <h3 style={{ marginTop: "20px" }}>About Me</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>I am a full-stack web developer, passionate about turning ideas into reality. Experienced with front-end and back-end development, I enjoy the logical puzzles that come with software engineering and take pride in writting dry and powerful code. I am excited to apply the skills I've built as a developer in a challenging environment where I can grow as a professional and be a positive impact as a tea member. </p>
+                         
+                        <p>
+                    Outside of coding, I am a very driven home-chef and constantly am working on some sort of cooking or baking project. If I'm not in the kitchen, you can catch me at yoga (working off my latest culinary masterpiece), comedy club or hanging with my cat. 
+                        
+                    </p>
                 </div>
                 <div className="techContainer" id="technologies" style={{ backgroundColor: "white" }}>
                     <h2 style={HeaderStyle}>Technologies</h2>
