@@ -25,7 +25,7 @@ class NavagationBar extends Component {
                     smooth={true}
                     offset={-70}
                     duration={500}
-                    style={{ marginLeft: "900px"}}
+                    style={{ marginLeft: "1000px"}}
                     href="#home"
                      >Home
                 </Link>
