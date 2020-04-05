@@ -1,49 +1,70 @@
 /* Home page section */
 
-.homeContainer { 
+.home-container { 
+  padding: 40px;
+  height: 790px;
 
-    
-    /* padding-bottom: 0px; */
-    padding: 40px;
-    height: 780px; 
+  color: rgb(0, 0, 0);
+  background-image: url('../../images/faroeIslands.jpg');
+  background-size: 105%;
+  opacity: .8;
+}
+
   
-    color: rgb(0, 0, 0);
-    background-image: url('../../images/faroeIslands.jpg');
-    background-size: 100%;
-    opacity: .8;
-  }
-  
-  .contentContainer {
-    margin-top: 200px;
-    margin-left: 0%;
-    margin-right: 0%;
-    padding-bottom: 100px;
-  }
+.content-container {
+  margin-top: 13%;
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-bottom: 100px;
+}
 
 
-   #homeHeader  {
-    font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
-    font-size: 80px;
-    text-align: center;
-    letter-spacing: 3px;
-    font-weight: 700;
-    margin-bottom: 0px;
+#home-header  {
+  font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+  font-size: 80px;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
 
-  }
-  
-   #homeTitle  {
-      font-size: 20px;
-      font-weight: bold;
-      margin-top: 0%;
-  }
+.home-content {
+  margin: 30px 5%;
+  font-size: 40px;
+  font-family: "Maison Neue", Helvetica Neue, Helvetica, Arial, sans-serif; 
+  text-align: center; 
+  line-height: 1.30769em; 
+
+}
 
 .about-btn {
-    border-color: #fff;
-    border: 2px solid white;
-    background-color: transparent;
-    font-size: 50px;
-    color: #fff;
-    width: 20%;
-    font-size: 1em;
-    padding: 1.5em 0;
+  border-color: #fff;
+  border: 2px solid white;
+  background-color: transparent;
+  font-size: 50px;
+  color: #fff;
+  width: 20%;
+  font-size: 1em;
+  padding: 1.5em 0;
+}
+
+@media (min-height: 900px) {
+  .home-container {
+    height: 1000px;
   }
+  /* .content-container {
+    margin-top: 250px;
+  } */
+
+  #home-header {
+    font-size: 100px;
+  }
+
+  .home-content {
+    font-size: 50px;
+  }
+
+  .about-btn {
+    margin-top: 1%;
+  }
+}
