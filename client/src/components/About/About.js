@@ -15,6 +15,7 @@ const Home = () => {
 			<div style={{ display: "flex", justifyContent: "center" }}>
 				<button className="about-btn">
 					<Link
+						className="about"
 						activeClass="active"
 						to="technologies"
 						spy={true}
