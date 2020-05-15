@@ -1,16 +1,15 @@
 /* Home page section */
 
-.home-container { 
+.home-container {
   padding: 40px;
   height: 790px;
 
   color: rgb(0, 0, 0);
   background-image: url('../../images/faroeIslands.jpg');
   background-size: 105%;
-  opacity: .8;
+  opacity: 0.8;
 }
 
-  
 .content-container {
   margin-top: 13%;
   margin-left: 0%;
@@ -18,9 +17,8 @@
   padding-bottom: 100px;
 }
 
-
-#home-header  {
-  font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+#home-header {
+  font-family: 'brandon-grotesque', Helvetica, Arial, sans-serif;
   font-size: 80px;
   text-align: center;
   letter-spacing: 3px;
@@ -31,10 +29,9 @@
 .home-content {
   margin: 30px 5%;
   font-size: 40px;
-  font-family: "Maison Neue", Helvetica Neue, Helvetica, Arial, sans-serif; 
-  text-align: center; 
-  line-height: 1.30769em; 
-
+  font-family: 'Maison Neue', Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-align: center;
+  line-height: 1.30769em;
 }
 
 .about {

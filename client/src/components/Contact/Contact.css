@@ -1,59 +1,58 @@
-
 .contactContainer {
-    width: 80%;
-    margin: 80px;
-    margin-left: 10%;
-    margin-bottom: 0;
-    /* margin-right: 5%; */
-    padding: 50px;
-    padding-top: 200px;
-    padding-top: 0px;
-    
-    align-content: center;
-    border: solid 2px silver;
-    border-radius: 15px 50px;
-    background-color: white;
-    /* background-image: url('../../images/navbackground.jpg'); */
-  }
-  
-  .contactInput {
-    width: 100%; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    padding: 12px; 
-  
-    border: solid 2px  gray;
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    resize: vertical 
-  }
-  
-  .contactLabel {
-    font-weight: bolder;
-  }
-  
-  .contactComment {
-    width: 100%; 
-    height: 200px;
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    padding: 12px; 
-  
-    border: solid 2px  gray;
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    resize: vertical 
-  }
-  
-  input[type=submit] {
-    background-color: rgb(59 59 59);
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: black;
-  }
+  width: 80%;
+  margin: 80px;
+  margin-left: 10%;
+  margin-bottom: 0;
+  /* margin-right: 5%; */
+  padding: 50px;
+  padding-top: 200px;
+  padding-top: 0px;
+
+  align-content: center;
+  border: solid 2px silver;
+  border-radius: 15px 50px;
+  background-color: white;
+  /* background-image: url('../../images/navbackground.jpg'); */
+}
+
+.contactInput {
+  width: 100%;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  padding: 12px;
+
+  border: solid 2px gray;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.contactLabel {
+  font-weight: bolder;
+}
+
+.contactComment {
+  width: 100%;
+  height: 200px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  padding: 12px;
+
+  border: solid 2px gray;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+input[type='submit'] {
+  background-color: rgb(59 59 59);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type='submit']:hover {
+  background-color: black;
+}
