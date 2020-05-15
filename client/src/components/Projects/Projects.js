@@ -4,20 +4,17 @@ import CarouselTest from '../Carousel/Carousel';
 import './Projects.css'
 
 const Projects = () => {
-
-    render()
     return (
-            <div className="projectsContainer" id="projects" >
-                <h3 style={HeaderStyle}>Stuff I've Built</h3>
-                <div className="individualContainer" style={CarouselStyle}>
-                    <CarouselTest/>
-                </div>
+        <div className="projectsContainer" id="projects" >
+            <h3 style={HeaderStyle}>Stuff I've Built</h3>
+            <div className="individualContainer" style={CarouselStyle}>
+                <CarouselTest />
             </div>
+        </div>
     )
 }
 
 //Styling objects
-
 let HeaderStyle = {
     fontSize: "35px",
     fontFamily: "Roboto, sans-serif",

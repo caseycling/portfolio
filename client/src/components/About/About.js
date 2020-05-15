@@ -4,7 +4,6 @@ import { render } from '@testing-library/react';
 import './About.css'
 
 const Home = () => {
-	render()
 	return (
 		<div className="home-container" id="home">
 			<div className="content-container">
