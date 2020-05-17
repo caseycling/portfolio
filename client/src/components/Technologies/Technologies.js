@@ -1,39 +1,11 @@
 import React, { Component } from 'react';
-import Headshot from '../../images/profilePic.jpg';
+import Bio from '../Bio/Bio';
 import './Technologies.css';
 
 const Technologies = () => {
   return (
     <div style={Container}>
-      <div
-        className='techContainer'
-        style={{
-          display: 'block',
-          height: '100%',
-          paddingBottom: '50px',
-          backgroundColor: 'white',
-          marginBottom: '60px',
-        }}
-        id='technologies'
-      >
-        <img src={Headshot} style={Image}></img>
-        <h3 style={{ marginTop: '20px' }}>About Me</h3>
-        <p>
-          I am a full-stack web developer, passionate about turning ideas into
-          reality. Experienced with front-end and back-end development, I enjoy
-          the logical puzzles that come with software engineering and take pride
-          in writting elegant, dry code. I am excited to apply the skills I've
-          built as a developer in a challenging environment where I can grow as
-          a professional and be a positive impact as a tea member.{' '}
-        </p>
-        <p>
-          {' '}
-          Outside of coding, I am a very driven home-chef and constantly am
-          working on some sort of cooking or baking project. If I'm not in the
-          kitchen, you can catch me at yoga (working off my latest culinary
-          masterpiece), the comedy club or hanging with my cat.
-        </p>
-      </div>
+      <Bio />
       <div
         className='techContainer'
         id='technologies'
@@ -83,15 +55,6 @@ let Container = {
   paddingTop: '5%',
   paddingBottom: '3%',
   marginBottom: '60px',
-};
-
-let Image = {
-  width: '150px',
-  height: '200px',
-  margin: '20px',
-  marginBottom: '30px',
-  float: 'left',
-  borderRadius: '70px',
 };
 
 let HeaderStyle = {
